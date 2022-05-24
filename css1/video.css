@@ -1,0 +1,21 @@
+.video
+{
+    display: flex;
+    margin-left: 28%;
+    width: 800px;
+    height: 400px;
+    
+    justify-content: center;
+	align-items: center;
+}
+.video iframe
+{
+    width: 80%;
+    height: 80%;
+}
+.videotitle
+{
+    text-align:center;
+    margin:30px 0 6px;
+    font-size:30px;
+}

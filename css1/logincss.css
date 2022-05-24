@@ -1,0 +1,180 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(#141e30,#243b55);
+}
+.sbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto; 
+    background: linear-gradient(#141e30,#243b55);
+
+}
+/* .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    
+    padding: 300px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+} */
+.login{
+    display: block;
+    /* flex-direction: column; */
+    margin: 0 auto;
+    align-items: center;
+    width: auto;
+    
+    padding: 300px;
+    background-color: rgba(0,0,0,0.2);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.4);
+}
+.login h2{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.login .login_box{
+position: relative;
+width: 100%;
+}
+.login .login_box input{
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 10px 0;  
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 16px; 
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+.login .login_box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    color: #fff;
+    pointer-events: none;
+    transition: all 0.5s;
+}
+.login .login_box input:focus + label,
+.login .login_box input:valid + label{
+    top: -20px;
+    color: #03e9f4;
+    font-size:12px;
+}
+/* .login a{
+    position: relative;
+    padding: 10px 20px;
+    color: #03e9f4;
+    text-decoration: none;
+    transition: all 0.5s;
+
+}
+.login a:hover{
+    color: #fff;
+    border-radius: 5px;
+    background-color: #03e9f4;
+    box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 50px #03e9f4,0 0 100px #03e9f4;
+} */
+.login a{
+     text-align:center; 
+    
+    width: 100px;
+    height: 50px;
+    border: 0;
+    background: none;
+      display:flex;
+      justify-content: center;
+  align-items: center;  
+    border:2px solid #2ecc71;
+    outline:none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+.login a:hover{
+    background:  #2ecc71;
+    
+    
+}
+.login input[type="submit"]{
+    width: 100px;
+    height: 50px;
+    border: 0;
+    background: none;
+    /* display:block; */
+    border:2px solid #2ecc71;
+    outline:none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+    
+}
+.login input[type="submit"]:hover{
+    background:  #2ecc71;
+    
+    
+}
+
+.radios{
+    font-size: 24px;
+    padding: 4px;
+    margin-bottom: 15px;
+}
+.radios input[type="radio"]{
+    display: none;
+}
+.radios label{
+    position: relative;
+    cursor: pointer;
+    font-weight: bold;
+    
+    padding-right: 20px;
+    color: #fff;
+}
+.radios label:nth-last-child(1){
+    padding-right: 0;
+}
+.radios label::before{
+    content:"";
+    border: 2px solid #fff;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin:-4px 20px;
+    margin-left: 0;
+    border-radius: 50%;
+    
+
+}
+.radios label::after{
+    content:"";
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0);
+    left:7px;
+    top:12px;
+    margin: 1px 20px;
+    margin-left: 0;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    transition: all 0.4s;
+}
+.radios input[type="radio"]:checked +label::after{
+    background: rgba(255, 255, 255, 1);
+}
+
+

@@ -1,0 +1,163 @@
+.cell{
+    width:90%;
+    height:350px;
+    
+    margin-left: 80px;
+
+}
+.cell img
+{
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+}
+.times
+{
+    position: absolute;
+    top: 40%;
+    font-size: 30px;
+}
+
+.time
+{
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+}
+::selection{
+    background: #d5bbf7;
+  }
+  .contents{
+    margin-top: 20px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+   
+  } 
+.content{
+    margin-top: 20px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+   
+  }
+label.box{
+    background: #ddd;
+    margin-top: 12px;
+    padding: 10px 12px;
+    display: flex;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    margin-left: 10px;
+  }
+  #one:checked ~ label.first,
+  #two:checked ~ label.second,
+  #three:checked ~ label.third,
+  #four:checked ~ label.fourth,
+  #five:checked ~ label.fifth,
+  #six:checked ~ label.sixth,
+  #seven:checked ~ label.seventh,
+  #eight:checked ~ label.eighth,
+  #nine:checked ~ label.ninth,
+  #ten:checked ~ label.tenth,
+  #Monday:checked ~ label.Monday,
+  #Tuesday:checked ~ label.Tuesday,
+  #Wednesday:checked ~ label.Wednesday,
+  #Thursday:checked ~ label.Thursday,
+  #Friday:checked ~ label.Friday,
+  #Saturday:checked ~ label.Saturday,
+  #Sunday:checked ~ label.Sunday{
+    border-color: #8E49E8;
+    background: #d5bbf7;
+  }
+label.box:hover{
+    background: #d5bbf7;
+  }
+label.box .circle{
+    height: 22px;
+    width: 22px;
+    background: #ccc;
+    border: 5px solid transparent;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 50%;
+    transition: all 0.25s ease;
+    box-shadow: inset -4px -4px 10px rgba(0, 0, 0, 0.2);
+  }
+  #one:checked ~ label.first .circle,
+  #two:checked ~ label.second .circle,
+  #three:checked ~ label.third .circle,
+  #four:checked ~ label.fourth .circle,
+  #five:checked ~ label.fifth .circle,
+  #six:checked ~ label.sixth .circle,
+  #seven:checked ~ label.seventh .circle,
+  #eight:checked ~ label.eighth .circle,
+  #nine:checked ~ label.ninth .circle,
+  #ten:checked ~ label.tenth .circle,
+  #Monday:checked ~ label.Monday .circle,
+  #Tuesday:checked ~ label.Tuesday .circle,
+  #Wednesday:checked ~ label.Wednesday .circle,
+  #Thursday:checked ~ label.Thursday .circle,
+  #Friday:checked ~ label.Friday .circle,
+  #Saturday:checked ~ label.Saturday .circle,
+  #Sunday:checked ~ label.Sunday .circle{
+    border-color: #8E49E8;
+    background: #fff;
+  
+  }
+label.box .plan{
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+input[type="radio"]{
+    display: none;
+  }
+  .search input[type="submit"]{
+	width: 40%;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 8px;
+	color: white;
+	background-color: rgb(136, 136, 136);
+    position: absolute;
+    top: 85%;
+    left: 28%;
+}
+.search input[type="submit"]:hover{
+	background-color: rgb(105, 105, 105);
+}
+.searchs
+{
+    position: absolute;
+    top: 60%;
+    font-size: 30px;
+}
+.addspace input[type="submit"]{
+	width: 40%;
+	border: none;
+	outline: none;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 8px;
+	color: white;
+	background-color: rgb(136, 136, 136);
+    position: absolute;
+    top: 90%;
+    left: 28%;
+}
+.addspace input[type="submit"]:hover{
+	background-color: rgb(105, 105, 105);
+}
+.hourtime
+{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	position: relative;
+	top:65%;
+}

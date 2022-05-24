@@ -1,0 +1,145 @@
+.select_som{
+	width: 70%;
+	margin-left: 15%;
+	text-align: center;
+	margin-top: 10px;
+}
+.select_som .sele
+{
+	margin-top: 5px;
+	font-size: 25px;
+}
+
+.select_som .sele select
+{
+	width: 100px;
+	height: 25px;
+}
+.select_som .sele select,input[type='submit']
+{
+	margin-left: 5px;
+}
+.show_s
+{
+	
+	display: flex;
+	
+}
+.show_s 
+{
+
+	margin-left: 15%;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	padding-top: 20px;
+	
+
+}
+.show_s  span:first-child
+{
+	margin-left: 5%;
+}
+ .show_s  span:nth-child(2)
+{
+	margin-left: 8%;
+} 
+.show_s span:nth-child(3)
+{
+	margin-left: 10%;
+} 
+.show_s span:nth-child(4)
+{
+	margin-left: 10%;
+} 
+
+.show{
+	display: block;
+	width: 70%;
+	height: 80px;
+	
+	margin-left: 15%;
+	margin-top: 10px;
+	box-shadow: inset -4px 0px 50px 0px #E0E0E0,5px 5px 19px -3px #242424;
+	-webkit-box-shadow: inset -4px 0px 50px 0px #E0E0E0,5px 5px 19px -3px #242424;
+	-moz-box-shadow: inset -4px 0px 50px 0px #E0E0E0,5px 5px 19px -3px #242424;
+	-o-box-shadow: inset -4px 0px 50px 0px #E0E0E0,5px 5px 19px -3px #242424;
+	padding-top: 7px;
+}
+.showitem
+{
+	display: flex;
+}
+.showitem a
+{
+	margin-left: 8%;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	padding-top: 20px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.showitem span
+{
+	margin-left: 4%;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	padding-top: 20px;
+	
+}
+.showitem span:nth-child(2)
+{
+	margin-left: 5%;
+	width: 96px;
+}
+.showitem span:nth-child(3)
+{
+	margin-left: 2%;
+	width: 305px;
+}
+.showitem span:nth-child(4)
+{
+	margin-left: 6%;
+	width: 92px;
+}
+
+.person
+{
+	display: flex;
+}
+.person a
+{
+	margin-left: 8%;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	padding-top: 20px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.person span
+{
+	margin-left: 6%;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	padding-top: 20px;
+	
+}
+.person span:nth-child(2)
+{
+	margin-left: 9%;
+	width: 96px;
+}
+.person span:nth-child(3)
+{
+	margin-left: 1%;
+	width: 305px;
+}
+.person span:nth-child(4)
+{
+	margin-left: 2%;
+	width: 90px;
+}

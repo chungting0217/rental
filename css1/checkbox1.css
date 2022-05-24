@@ -1,0 +1,49 @@
+.hourtime
+{
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+	position: relative;
+	top:65%;
+}
+.hourtime .timecheck
+{
+	margin: 10px;
+	
+}
+.hourtime .timecheck label
+{
+	cursor: pointer;
+}
+.hourtime .timecheck label input[type="checkbox"]
+{
+	display: none;
+}
+.hourtime .timecheck label span
+{
+	position: relative;
+	display: inline-block;
+	background-color: rgb(207, 207, 207);
+	padding: 15px 30px;
+	color: black;
+	text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+	border-radius: 30px;
+	font-size: 15px;
+	transition: 0.5s;
+	user-select: none;
+	overflow: hidden;
+}
+.hourtime .timecheck label span:before
+{
+	content: '';
+	position: absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 50%;
+	background: rgba(255,255,255,.1);
+}
+.hourtime .timecheck label input[type="checkbox"]:checked ~ span
+{
+background: rgb(150, 150, 150);
+}

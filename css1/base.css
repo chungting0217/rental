@@ -1,0 +1,11 @@
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display:table;
+    clear:both;
+}
+
+body{
+    font-family: 'Lato-Regular','cwTeXHei','Microsoft JhengHei','Microsoft JhengHei UI',Sans-serif;
+    min-width:  1000px;
+}

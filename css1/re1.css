@@ -1,0 +1,108 @@
+.administrate{
+	display: block;
+	width: 70%;
+	height: 80px;
+	
+	margin-left: 15%;
+	margin-top: 10px;
+	box-shadow: inset -4px 0px 50px 0px #E0E0E0,5px 5px 19px -3px #242424;
+	-webkit-box-shadow: inset -4px 0px 50px 0px #E0E0E0,5px 5px 19px -3px #242424;
+	-moz-box-shadow: inset -4px 0px 50px 0px #E0E0E0,5px 5px 19px -3px #242424;
+	-o-box-shadow: inset -4px 0px 50px 0px #E0E0E0,5px 5px 19px -3px #242424;
+	
+	border-radius: 10px;
+	padding-top: 7px;
+}
+.ad{
+	display: block;
+	width: 70%;
+	height: 20px;
+	
+	margin-left: 15%;
+	margin-top: 10px;
+	
+
+	border-radius: 10px;
+	padding-top: 7px;
+}
+.ad span:first-child
+{
+	margin-left: 5%;
+}
+ .ad span:nth-child(2)
+{
+	margin-left: 5%;
+} 
+.ad span:nth-child(3)
+{
+	margin-left: 20%;
+} 
+.ad span:nth-child(4)
+{
+	margin-left: 17%;
+} 
+.ad span:nth-child(5)
+{
+	margin-left: 9%;
+} 
+.ad span:nth-child(6)
+{
+	margin-left: 8%;
+} 
+/* .ad span{
+	margin-right: 14%;
+	
+} */
+.text
+{
+	
+	display: flex;
+	
+}
+.text span
+{
+	margin-left: 6%;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	padding-top: 20px;
+	
+}
+.text a
+{
+	margin-left: 5%;
+	flex-wrap: wrap;
+	text-align: center;
+	align-items: center;
+	padding-top: 20px;
+    text-decoration: none;
+    color: cornflowerblue;
+}
+.text span:nth-child(2)
+{
+	width: 96px;
+}
+.text span:nth-child(3)
+{
+	width: 305px;
+}
+.text span:nth-child(4)
+{
+	width: 92px;
+}
+.text span:nth-child(5)
+{
+	width: 90px;
+}
+.text span:nth-child(5)
+{
+	width: 90px;
+}
+.dates
+{
+	width: 50px;
+	height: 80px;
+	display: flex;
+	margin-left: 50px;
+	padding-top: 20px;
+}

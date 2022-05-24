@@ -1,0 +1,15 @@
+.venue{
+	display: block;
+	width: 1211px;
+	height: 80px;
+	background-color: rgb(245, 244, 244);
+	margin-left: 15%;
+	margin-top: 10px;
+	border: black 1px solid;
+	border-radius: 10px;
+	padding-top: 7px;
+}
+.venue span{
+	font-size: 20px;
+	
+}
