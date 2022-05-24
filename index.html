@@ -1,0 +1,365 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title> 運動館 </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css1/reset.css" /> 
+		<link rel="stylesheet" href="css/all.css" /> 
+		<link rel="stylesheet" href="css1/base.css" /> 
+		<link rel="stylesheet" href="css1/allsport.css" /> 
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+	/* body {
+		width: auto;
+		
+	}
+	 .alt{
+	width: auto;
+
+	height: 150px;
+	background-color: black;
+	
+}
+ .logo{
+	padding-top: 33px;
+} 
+.logo img{
+	display: block;
+  	margin: 0 auto;
+	width: 200px; 
+}
+.top-nva{
+	width: auto;
+	overflow: hidden;
+	
+	
+	background-color: #E8E7E3;
+}
+.top-nva{
+	
+	width: 100%;
+	height: 48px;
+	
+}
+.top-nva li{
+	background-color: #E8E7E3;
+	float: left;
+	
+	line-height: 48px;
+}
+.top-nva a{
+	display: block;
+	text-decoration: none;
+	color:#777777;
+	font-size: 18px;
+	  padding: 0 156px;  
+}
+
+.top-nva a:hover{
+	background-color: #3F3F3F;
+	color: #E8E7E3;
+} 
+.navbar{
+	position: relative;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	box-shadow: 0 1px 2px 0 rgb(0,0,0,0.1);
+
+}
+.navbar input{
+	display: none;
+}
+.navbar label{
+	position: absolute;
+	 top: 0; 
+	 left: 200px; 
+	font-size: 20px;
+	color: #666;
+padding-left: 20px;
+cursor: pointer;
+transition: all 0.5s;
+}
+.navbar ul{
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 200px;
+	height: 100vh;
+	background-color: #20222a;
+	transition: all 0.5s;
+}
+.navbar ul li{
+	width: 100%;
+	height: 150px;
+	margin-bottom: 10px;
+}
+.navbar ul li:first-child{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	
+}
+.navbar ul li:first-child img{
+	width: 80px;
+	border-radius: 50%;
+}
+.navbar ul li:first-child span{
+	color:#fff;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.navbar ul li a{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	color: #d2d2d2;
+	text-decoration: none;
+	border-left: 6px solid transparent;
+}
+.navbar ul li a i {
+	font-size: 18px;
+	margin: 0 15px;
+}
+.navbar ul li a span{
+	font-size: 14px;
+}
+.navbar ul li a:hover{
+	color: #fff;
+	border-left: 6px solid #fb7299;
+}
+.navbar input:checked +label{
+	left: 0;
+
+}
+.navbar input:checked +label i{
+	transform: rotateY(180deg);
+}
+.navbar input:checked ~ ul{
+	left:-200px;
+} */
+ .filter{
+	display: flex;
+	width: 70%;
+	height: 50px;
+	
+	justify-content: center;
+	align-items: center;
+	margin-left: 15%;
+	border-bottom: solid;
+}
+.filter li
+{
+	list-style:none;
+		margin-left: 90%;
+}
+.filter li a
+{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	color: black;
+	text-decoration: none;
+	border-left: 6px solid transparent;
+}
+.checkme{
+	display: none;
+}
+.filter .add-filter{
+	display: none;
+	position: absolute;
+	 background-color: rgb(245, 244, 244);
+	width:200px;
+	height:200px;
+	margin-top: 30px;
+	margin-left: -50px;
+	text-align: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+	
+} 
+.venue{
+	display: block;
+	width: 70%;
+	height: 80px;
+	background-color: rgb(238, 235, 235);
+	margin-left: 15%;
+	margin-top: 10px;
+	border: black 1px solid;
+	border-radius: 10px;
+	padding-top: 7px;
+}
+.venue span{
+	font-size: 20px;
+	
+}
+.space{
+	display: block;
+	width: 70%;
+	height: 150px;
+	background-color: rgb(238, 235, 235);
+	margin-left: 15%;
+	margin-top: 10px;
+	border: black 1px solid;
+	border-radius: 10px;
+	padding-top: 7px;
+}
+.space span{
+	font-size: 20px;
+}
+/* .space-img
+{
+	
+	background-color: black;
+	width:25%;
+    height:0;
+	overflow: hidden;
+	margin-left: 62%;
+	margin-top: -64px;
+}  */
+.space-img img{
+	position:absolute;
+	clip:rect(100px 50px 50px 50px);
+}
+
+		</style>
+	</head>
+	<body class="cbody">
+		<div id="header" class="alt">
+			<div class="logo"><a href="index.php"><img src="image/LOGO.png"></a></div>
+		</div>
+	<div calss="nva-top">
+		<ul class="top-nva">
+			<li>
+				<a class="a" href="#">運動資訊</a>
+			</li>
+			<li>
+				<a class="a" href="#">推薦影片</a>
+			</li>
+			<li>
+				<a class="a" href="#">租借</a>
+			</li>
+			<li>
+				<a class="a" href="#">全台運動館</a>
+			</li>
+			<li>
+				<a class="a" href="loginorsign.php">登入和註冊</a>
+			</li>
+		</ul>
+	</div> 
+		<div class="navbar">
+			<input type="checkbox"  id="checkbox">
+			<label for="checkbox">
+				<i class="fa fa-outdent"></i></label>
+			<ul>
+				<li>
+					<img src="image/LOGO.png" alt="">
+				</li>
+				<li><a href="javascript:;">
+					<i class="fa fa-home"></i>
+					<span>運動資訊</span>
+					</a>
+				</li>
+				<li><a href="javascript:;">
+					<i class="fab fa-youtube"></i>
+					<span>推薦影片</span>
+					</a>
+				</li>
+				<li><a href="javascript:;">
+					<i class="fa fa-home"></i>
+					<span>租借</span>
+					</a>
+				</li>
+				<li><a href="javascript:;">
+					<i class="fa fa-running"></i>
+					<span>全台運動館</span>
+					</a>
+				</li>
+				<li><a href="loginorsign.php">
+		
+					<i class="fa fa-user"></i>
+					<span>登入和註冊</span>
+					</a>
+				</li>
+				
+			</ul>
+		</div>
+
+		<div class="filter"> 
+			<li><a href="javascript:;" class="fil">
+				
+				<input type="checkbox"  id="checkbox1" class="checkme">
+				<label for="checkbox1"><i class="fas fa-filter"></i><span>篩選</span></label>
+				
+				<form method="post" action="">
+				<div class="add-filter">
+					<input type="checkbox" id="台北市" value="台北市">台北市
+					<input type="checkbox" id="陶芸市" value="桃園市">桃園
+					<input type="submit" name="Confim" value="搜尋" />
+				</div>
+				</form>
+				</a>
+			</li>
+		</div>
+		<script src="assets/js/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$(".checkme").click(function(event){
+					var x=$(this).is(':checked');
+					if(x==true){
+						$(this).parents(".filter").find('.add-filter').show();
+					}
+					else
+					{
+						$(this).parents(".filter").find('.add-filter').hide();
+					}
+				});
+			})
+		</script>
+		<script language="javascript">   
+			var addFile=function()
+			{
+				var div=document.getElementById("fileDiv");
+				var br=document.createElement("br");
+				var input=document.createElement("input");
+				var buttom=document.createElement("input");
+
+				input.setAttribute("type","file");
+				buttom.setAttribute("type","buttom");
+				buttom.setAttribute("value","刪除");
+
+				buttom.onclick=function()
+				{
+					div.removeChild(br);
+					div.removeChild(input);
+					div.removeChild(buttom);
+				}
+				div.appendChild(br);
+				div.appendChild(input);
+				div.appendChild(buttom);
+			}
+
+	  </script> 
+		<input type="button" value="新增" onclick="addFile();">
+		 <div id="fileDiv"></div>   
+		
+		<!-- Scripts -->
+			<!-- 
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script> -->
+
+	</body>
+</html>
